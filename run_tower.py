@@ -70,16 +70,16 @@ def main():
                 elif event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_RIGHT: 
                         steps_per_frame = 50  # Turbo mode
+                        use_mcts = False      # Auto-disable MCTS for speed
+                        print("Turbo mode (MCTS OFF)")
                     elif event.key == pygame.K_LEFT:
                         steps_per_frame = 1   # Watch mode
+                        use_mcts = True       # Auto-enable MCTS for smarter play
+                        print("Watch mode (MCTS ON)")
                     elif event.key == pygame.K_s:
                         # Save checkpoint
                         agent.save("tower_agent_checkpoint.pt")
                         print(f"Saved checkpoint at episode {episodes}")
-                    elif event.key == pygame.K_m:
-                        # Toggle MCTS mode
-                        use_mcts = not use_mcts
-                        print(f"MCTS {'ON' if use_mcts else 'OFF'}")
             
             if not running: 
                 break
@@ -115,7 +115,7 @@ def main():
                     if steps_per_frame == 1 and settle_i % 10 == 0:
                         render_frame(sim, screen, font, agent, episodes, 
                                    max_height_record, current_tower_height, 
-                                   state, camera_y)
+                                   state, camera_y, use_mcts)
                         pygame.display.flip()
                     
                     # Early exit if settled

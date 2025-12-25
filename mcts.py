@@ -189,9 +189,9 @@ class MCTS:
         # Rotation influences angle (simplified)
         next_state[1] = rotation / 0.52  # normalized angle
         
-        # Height increases
-        current_height = state[2] * 5  # denormalize
-        next_state[2] = np.log1p(np.exp(current_height * 5) + 1) / 5
+        # Height increases (simple increment, clamped)
+        current_height = state[2]
+        next_state[2] = min(1.0, current_height + 0.05)  # Small increment, max 1.0
         
         # Shape changes randomly (unknown until we actually place)
         # Keep same for estimation

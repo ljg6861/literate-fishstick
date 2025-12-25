@@ -1,0 +1,90 @@
+14:43:46 [INFO] Initializing The Village...
+14:43:46 [INFO] Screen: 1280x720
+14:43:46 [INFO] Created new world with seed 1134828432
+14:43:46 [INFO] Initialization complete
+14:43:46 [INFO] Starting simulation loop
+14:43:56 [DEBUG] Tick 100: pop=40, food=0.1, stability=0.67
+14:44:06 [DEBUG] Tick 200: pop=40, food=1.0, stability=0.66
+14:44:16 [DEBUG] Tick 300: pop=40, food=1.1, stability=0.67
+14:44:26 [DEBUG] Tick 400: pop=40, food=0.7, stability=0.66
+14:44:36 [DEBUG] Tick 500: pop=40, food=1.0, stability=0.68
+14:44:46 [DEBUG] Tick 600: pop=40, food=1.8, stability=0.71
+14:44:56 [DEBUG] Tick 700: pop=40, food=19.2, stability=0.74
+14:45:06 [DEBUG] Tick 800: pop=40, food=45.6, stability=0.79
+14:45:16 [DEBUG] Tick 900: pop=40, food=106.3, stability=0.87
+14:45:26 [DEBUG] Tick 1000: pop=41, food=320.4, stability=0.98
+14:45:36 [DEBUG] Tick 1100: pop=43, food=363.6, stability=0.98
+14:45:46 [DEBUG] Tick 1200: pop=44, food=291.0, stability=0.99
+14:45:56 [DEBUG] Tick 1300: pop=44, food=141.4, stability=0.91
+14:46:06 [DEBUG] Tick 1400: pop=44, food=3.2, stability=0.74
+14:46:16 [DEBUG] Tick 1500: pop=44, food=3.2, stability=0.74
+14:46:26 [DEBUG] Tick 1600: pop=44, food=3.0, stability=0.74
+14:46:36 [DEBUG] Tick 1700: pop=44, food=9.1, stability=0.75
+14:46:46 [DEBUG] Tick 1800: pop=44, food=3.2, stability=0.74
+14:46:56 [DEBUG] Tick 1900: pop=44, food=4.4, stability=0.74
+14:47:06 [DEBUG] Tick 2000: pop=44, food=4.9, stability=0.74
+14:47:16 [DEBUG] Tick 2100: pop=44, food=4.4, stability=0.74
+14:47:26 [DEBUG] Tick 2200: pop=44, food=4.8, stability=0.74
+14:47:36 [DEBUG] Tick 2300: pop=44, food=5.1, stability=0.75
+14:47:46 [DEBUG] Tick 2400: pop=44, food=7.2, stability=0.75
+14:47:56 [DEBUG] Tick 2500: pop=44, food=4.9, stability=0.75
+14:48:06 [DEBUG] Tick 2600: pop=44, food=6.6, stability=0.75
+14:48:16 [DEBUG] Tick 2700: pop=44, food=5.5, stability=0.75
+14:48:26 [DEBUG] Tick 2800: pop=44, food=6.3, stability=0.75
+14:48:36 [DEBUG] Tick 2900: pop=44, food=8.2, stability=0.75
+14:48:46 [DEBUG] Tick 3000: pop=44, food=7.2, stability=0.75
+14:48:46 [INFO] Auto-saved to saves\autosave.json
+14:48:56 [DEBUG] Tick 3100: pop=44, food=6.9, stability=0.75
+14:49:06 [DEBUG] Tick 3200: pop=44, food=7.3, stability=0.75
+14:49:16 [DEBUG] Tick 3300: pop=44, food=7.8, stability=0.75
+14:49:26 [DEBUG] Tick 3400: pop=44, food=9.5, stability=0.75
+14:49:36 [DEBUG] Tick 3500: pop=44, food=8.0, stability=0.75
+14:49:46 [DEBUG] Tick 3600: pop=44, food=8.5, stability=0.75
+14:49:56 [DEBUG] Tick 3700: pop=44, food=8.3, stability=0.75
+14:50:06 [DEBUG] Tick 3800: pop=44, food=12.4, stability=0.76
+14:50:16 [DEBUG] Tick 3900: pop=44, food=8.7, stability=0.75
+14:50:26 [DEBUG] Tick 4000: pop=44, food=10.3, stability=0.75
+14:50:36 [DEBUG] Tick 4100: pop=44, food=9.3, stability=0.75
+14:50:46 [DEBUG] Tick 4200: pop=44, food=12.9, stability=0.76
+14:50:56 [DEBUG] Tick 4300: pop=44, food=9.8, stability=0.75
+14:51:06 [DEBUG] Tick 4400: pop=44, food=14.3, stability=0.76
+14:51:16 [DEBUG] Tick 4500: pop=44, food=10.2, stability=0.75
+14:51:26 [DEBUG] Tick 4600: pop=44, food=12.2, stability=0.76
+14:51:36 [DEBUG] Tick 4700: pop=44, food=14.9, stability=0.76
+14:51:46 [DEBUG] Tick 4800: pop=44, food=11.2, stability=0.76
+14:51:56 [DEBUG] Tick 4900: pop=44, food=14.6, stability=0.76
+14:52:06 [DEBUG] Tick 5000: pop=44, food=11.6, stability=0.76
+14:52:16 [DEBUG] Tick 5100: pop=44, food=15.9, stability=0.76
+14:52:26 [DEBUG] Tick 5200: pop=44, food=11.5, stability=0.76
+14:52:36 [DEBUG] Tick 5300: pop=44, food=11.9, stability=0.76
+14:52:46 [DEBUG] Tick 5400: pop=44, food=12.1, stability=0.76
+14:52:56 [DEBUG] Tick 5500: pop=44, food=12.3, stability=0.76
+14:53:06 [DEBUG] Tick 5600: pop=44, food=19.3, stability=0.77
+14:53:16 [DEBUG] Tick 5700: pop=44, food=13.3, stability=0.76
+14:53:26 [DEBUG] Tick 5800: pop=44, food=13.5, stability=0.76
+14:53:36 [DEBUG] Tick 5900: pop=44, food=18.6, stability=0.76
+14:53:46 [DEBUG] Tick 6000: pop=44, food=13.6, stability=0.76
+14:53:46 [INFO] Auto-saved to saves\autosave.json
+14:53:56 [DEBUG] Tick 6100: pop=44, food=13.6, stability=0.76
+14:54:06 [DEBUG] Tick 6200: pop=44, food=14.6, stability=0.76
+14:54:16 [DEBUG] Tick 6300: pop=44, food=22.8, stability=0.77
+14:54:26 [DEBUG] Tick 6400: pop=44, food=34.6, stability=0.78
+14:54:36 [DEBUG] Tick 6500: pop=44, food=84.7, stability=0.85
+14:54:46 [DEBUG] Tick 6600: pop=44, food=186.0, stability=0.97
+14:54:56 [DEBUG] Tick 6700: pop=44, food=148.7, stability=0.93
+14:55:06 [DEBUG] Tick 6800: pop=44, food=161.0, stability=0.94
+14:55:16 [DEBUG] Tick 6900: pop=44, food=318.5, stability=0.99
+14:55:26 [DEBUG] Tick 7000: pop=45, food=480.8, stability=0.99
+14:55:36 [DEBUG] Tick 7100: pop=46, food=512.8, stability=0.99
+14:55:46 [DEBUG] Tick 7200: pop=46, food=469.7, stability=0.99
+14:55:56 [DEBUG] Tick 7300: pop=47, food=487.1, stability=0.99
+14:56:06 [DEBUG] Tick 7400: pop=47, food=245.4, stability=0.99
+14:56:16 [DEBUG] Tick 7500: pop=47, food=100.2, stability=0.87
+14:56:26 [DEBUG] Tick 7600: pop=47, food=21.7, stability=0.77
+14:56:36 [DEBUG] Tick 7700: pop=47, food=17.0, stability=0.76
+14:56:46 [DEBUG] Tick 7800: pop=47, food=25.0, stability=0.77
+14:56:56 [DEBUG] Tick 7900: pop=47, food=52.5, stability=0.81
+14:57:06 [DEBUG] Tick 8000: pop=47, food=44.7, stability=0.80
+14:57:06 [INFO] Shutting down...
+14:57:06 [INFO] Final save complete
+14:57:07 [INFO] Shutdown complete

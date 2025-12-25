@@ -1,0 +1,10 @@
+12:41:07 [INFO] Initializing The Village...
+12:41:07 [INFO] Screen: 1280x720
+12:41:07 [INFO] Created new world with seed 2451736622
+12:41:07 [INFO] Initialization complete
+12:41:07 [INFO] Starting simulation loop
+12:41:17 [DEBUG] Tick 100: pop=40, food=0.6, stability=0.68
+12:41:27 [INFO] Interrupted by user
+12:41:27 [INFO] Shutting down...
+12:41:27 [INFO] Final save complete
+12:41:27 [INFO] Shutdown complete

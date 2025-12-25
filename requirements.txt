@@ -1,0 +1,5 @@
+# The Village - Phase 1
+# Requirements
+
+pygame>=2.5.0
+pymunk>=6.0.0

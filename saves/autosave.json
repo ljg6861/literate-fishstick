@@ -1,0 +1,6603 @@
+{
+  "width": 1280,
+  "height": 720,
+  "tick": 26,
+  "villagers": [
+    {
+      "id": 1,
+      "age": 43.17106814617922,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 2.5,
+      "role": "WORKER",
+      "has_home": true,
+      "skill_level": 10.50735512575182,
+      "position": [
+        713.0089098224487,
+        473.405360125816
+      ],
+      "target_position": [
+        267.95107160249756,
+        305.2087771058158
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          267.95107160249756,
+          305.2087771058158
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.3000000000000003,
+        "REST": 1.12,
+        "WORK": 1.13,
+        "BUILD": 1.2800000000000002,
+        "LEARN": 1.0,
+        "WANDER": 1.3500000000000003,
+        "SOCIALIZE": 1.3299999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 9,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 12,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 13,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 15,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 16,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 18,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "age": 30.527004996177922,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 0,
+      "role": "WORKER",
+      "has_home": true,
+      "skill_level": 16.44118499192526,
+      "position": [
+        946.8134439393464,
+        284.23612587741565
+      ],
+      "target_position": [
+        968.8457743113064,
+        282.20581211149334
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          968.8457743113064,
+          282.20581211149334
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.3600000000000003,
+        "REST": 1.12,
+        "WORK": 1.4799999999999995,
+        "BUILD": 1.2100000000000002,
+        "LEARN": 1.0,
+        "WANDER": 1.1,
+        "SOCIALIZE": 1.2349999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 9,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 13,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 17,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 20,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 21,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.45
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 26,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "age": 30.566251328660044,
+      "health": 100,
+      "happiness": 99.92499999999998,
+      "hunger": 70.06488734323074,
+      "role": "WORKER",
+      "has_home": true,
+      "skill_level": 21.194906527939597,
+      "position": [
+        714.0451074589646,
+        207.47694303870517
+      ],
+      "target_position": [
+        265.68692699913623,
+        315.3052974256845
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          265.68692699913623,
+          315.3052974256845
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.06,
+        "REST": 1.1600000000000001,
+        "WORK": 1.2699999999999996,
+        "BUILD": 1.2000000000000002,
+        "LEARN": 1.0,
+        "WANDER": 1.1800000000000002,
+        "SOCIALIZE": 1.1749999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 8,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.5
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 10,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.5
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6000000000000001
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 14,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.5
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.45
+        },
+        {
+          "tick": 18,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.5
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.45
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.45
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.45
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "age": 34.69816628751073,
+      "health": 100,
+      "happiness": 92.40408923121204,
+      "hunger": 8.5,
+      "role": "HEALER",
+      "has_home": true,
+      "skill_level": 17.661290324710944,
+      "position": [
+        872.6950683112672,
+        454.2525594818531
+      ],
+      "target_position": [
+        325.35776152538136,
+        423.3784336062601
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          325.35776152538136,
+          423.3784336062601
+        ],
+        "target_id": 3,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1400000000000001,
+        "REST": 1.3800000000000003,
+        "WORK": 1.1400000000000001,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.3900000000000003,
+        "SOCIALIZE": 1.1799999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 8,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 10,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.4
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 14,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.8
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "age": 26.228513025414014,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 12.0,
+      "role": "HEALER",
+      "has_home": true,
+      "skill_level": 10.093852124745979,
+      "position": [
+        281.8128301838229,
+        476.8930991471768
+      ],
+      "target_position": [
+        941.9590540290843,
+        423.3346582169738
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          941.9590540290843,
+          423.3346582169738
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2400000000000002,
+        "REST": 1.4800000000000004,
+        "WORK": 1.2600000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.2000000000000002,
+        "SOCIALIZE": 1.2549999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.4
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 11,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "age": 38.36583795807546,
+      "health": 100,
+      "happiness": 92.10109771484142,
+      "hunger": 5.5,
+      "role": "WORKER",
+      "has_home": true,
+      "skill_level": 10.447054598111295,
+      "position": [
+        1121.6943422863314,
+        182.99827773023156
+      ],
+      "target_position": [
+        299.46998881074603,
+        388.57379017091614
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          299.46998881074603,
+          388.57379017091614
+        ],
+        "target_id": 3,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.3000000000000003,
+        "REST": 1.06,
+        "WORK": 1.4289999999999998,
+        "BUILD": 1.2600000000000002,
+        "LEARN": 1.0,
+        "WANDER": 1.0,
+        "SOCIALIZE": 1.4889999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.45
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 13,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 14,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 15,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.6499999999999999
+        },
+        {
+          "tick": 24,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "age": 15.668014416467917,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 16.0,
+      "role": "CHILD",
+      "has_home": true,
+      "skill_level": 12.322485786649167,
+      "position": [
+        652.5716927879664,
+        423.91425489284217
+      ],
+      "target_position": [
+        643.7637110444109,
+        428.8682600390422
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": null,
+      "action_weights": {
+        "EAT": 1.1800000000000002,
+        "REST": 2.020000000000001,
+        "WORK": 1.0,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1,
+        "SOCIALIZE": 1.1649999999999998
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 9,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 10,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 14,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 19,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 20,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "age": 25.266723739957605,
+      "health": 100,
+      "happiness": 91.77317693894486,
+      "hunger": 12.0,
+      "role": "THINKER",
+      "has_home": true,
+      "skill_level": 11.765116025955884,
+      "position": [
+        287.3381840585591,
+        197.2073267675658
+      ],
+      "target_position": [
+        973.5756912870046,
+        384.1208992081631
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          973.5756912870046,
+          384.1208992081631
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.3000000000000003,
+        "REST": 1.2400000000000002,
+        "WORK": 1.3000000000000003,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.2770000000000001,
+        "SOCIALIZE": 1.3099999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "age": 7.173065870531376,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 5.0,
+      "role": "CHILD",
+      "has_home": true,
+      "skill_level": 9.902066303340867,
+      "position": [
+        877.9278361491108,
+        89.53366963960772
+      ],
+      "target_position": [
+        852.5763851490639,
+        103.2276063762603
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": null,
+      "action_weights": {
+        "EAT": 1.3600000000000003,
+        "REST": 1.1800000000000002,
+        "WORK": 1.0,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.2900000000000003,
+        "SOCIALIZE": 1.4749999999999994
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 8,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 14,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 15,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "age": 39.23712452829839,
+      "health": 100,
+      "happiness": 97.86937904197143,
+      "hunger": 6.5,
+      "role": "BUILDER",
+      "has_home": true,
+      "skill_level": 18.49255937168514,
+      "position": [
+        1011.1801116110702,
+        291.5135058505086
+      ],
+      "target_position": [
+        635.4529771697239,
+        407.3398297134509
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "CONSTRUCT",
+        "target_position": [
+          635.4529771697239,
+          407.3398297134509
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.4200000000000004,
+        "REST": 1.2400000000000002,
+        "WORK": 1.3000000000000003,
+        "BUILD": 1.2100000000000002,
+        "LEARN": 1.0,
+        "WANDER": 1.1,
+        "SOCIALIZE": 1.2749999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 10,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 13,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "age": 36.11463579629612,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 1.0,
+      "role": "THINKER",
+      "has_home": true,
+      "skill_level": 14.159004207422337,
+      "position": [
+        556.6081411075606,
+        408.14666953574346
+      ],
+      "target_position": [
+        296.4618867956574,
+        399.54385897990886
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          296.4618867956574,
+          399.54385897990886
+        ],
+        "target_id": 3,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.6600000000000006,
+        "REST": 1.1800000000000002,
+        "WORK": 1.1800000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1500000000000001,
+        "SOCIALIZE": 1.3299999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 8,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 13,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 18,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 23,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "age": 47.236469958283834,
+      "health": 100,
+      "happiness": 68.71386001294573,
+      "hunger": 1.0,
+      "role": "BUILDER",
+      "has_home": true,
+      "skill_level": 15.208844509852039,
+      "position": [
+        909.5282241658786,
+        404.26393734019695
+      ],
+      "target_position": [
+        616.6101480774098,
+        353.8519468490891
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "CONSTRUCT",
+        "target_position": [
+          616.6101480774098,
+          353.8519468490891
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2279999999999998,
+        "REST": 1.2619999999999996,
+        "WORK": 1.2079999999999997,
+        "BUILD": 1.2479999999999998,
+        "LEARN": 1.0,
+        "WANDER": 1.1949999999999996,
+        "SOCIALIZE": 1.1360000000000001
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.37
+        },
+        {
+          "tick": 8,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.37
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.27
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 12,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.67
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.52
+        },
+        {
+          "tick": 14,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.67
+        },
+        {
+          "tick": 15,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 16,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.47000000000000003
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.52
+        },
+        {
+          "tick": 18,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.47000000000000003
+        },
+        {
+          "tick": 21,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 24,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.67
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.47000000000000003
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "age": 16.657368345965985,
+      "health": 100,
+      "happiness": 99.97417519609647,
+      "hunger": 27.5,
+      "role": "CHILD",
+      "has_home": true,
+      "skill_level": 16.99616942303585,
+      "position": [
+        569.221116525149,
+        258.66349881362294
+      ],
+      "target_position": [
+        602.9681225398112,
+        282.14231491429814
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": null,
+      "action_weights": {
+        "EAT": 1.12,
+        "REST": 1.6000000000000005,
+        "WORK": 1.0,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.4000000000000004,
+        "SOCIALIZE": 1.3299999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 12,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 14,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 18,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 20,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "age": 39.326457108630166,
+      "health": 100,
+      "happiness": 100,
+      "hunger": 7.0,
+      "role": "FARMER",
+      "has_home": true,
+      "skill_level": 11.315675730695048,
+      "position": [
+        705.4111592101286,
+        510.2603071204012
+      ],
+      "target_position": [
+        338.2958988776456,
+        304.8424080515951
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          338.2958988776456,
+          304.8424080515951
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1800000000000002,
+        "REST": 1.5600000000000005,
+        "WORK": 1.0,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.227,
+        "SOCIALIZE": 1.4199999999999995
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 12,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 19,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 25,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "age": 30.04335908514409,
+      "health": 100,
+      "happiness": 97.9731779793295,
+      "hunger": 5.0,
+      "role": "THINKER",
+      "has_home": true,
+      "skill_level": 17.453194414548157,
+      "position": [
+        881.0089831763363,
+        301.07659141683547
+      ],
+      "target_position": [
+        319.84243507122767,
+        267.9192081043405
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          319.84243507122767,
+          267.9192081043405
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.4800000000000004,
+        "REST": 1.3600000000000003,
+        "WORK": 1.4200000000000004,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.2000000000000002,
+        "SOCIALIZE": 1.055
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 10,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 25,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "age": 24.021418935142588,
+      "health": 100,
+      "happiness": 88.23652130955695,
+      "hunger": 2.5,
+      "role": "THINKER",
+      "has_home": true,
+      "skill_level": 9.90818372119149,
+      "position": [
+        164.69659490434285,
+        372.70168258495494
+      ],
+      "target_position": [
+        281.56909115291955,
+        391.36700308419563
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          281.56909115291955,
+          391.36700308419563
+        ],
+        "target_id": 3,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.3000000000000003,
+        "REST": 1.314,
+        "WORK": 1.177,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.291,
+        "SOCIALIZE": 1.3239999999999998
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 8,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.37
+        },
+        {
+          "tick": 9,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 16,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "age": 25.460420004915655,
+      "health": 100,
+      "happiness": 84.3549487896471,
+      "hunger": 53.0,
+      "role": "BUILDER",
+      "has_home": true,
+      "skill_level": 11.91348282322311,
+      "position": [
+        953.9354215635154,
+        368.9778224388251
+      ],
+      "target_position": [
+        670.5028828597442,
+        358.97489113242983
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "CONSTRUCT",
+        "target_position": [
+          670.5028828597442,
+          358.97489113242983
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.174,
+        "REST": 1.197,
+        "WORK": 1.314,
+        "BUILD": 1.3100000000000003,
+        "LEARN": 1.0,
+        "WANDER": 1.077,
+        "SOCIALIZE": 1.3039999999999998
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 8,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 12,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.7
+        },
+        {
+          "tick": 15,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.6
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 19,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        },
+        {
+          "tick": 20,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.4
+        },
+        {
+          "tick": 21,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 23,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.5
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.4
+        },
+        {
+          "tick": 26,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.4
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "age": 44.153377492333604,
+      "health": 100,
+      "happiness": 81.70182460296115,
+      "hunger": 3.5,
+      "role": "FARMER",
+      "has_home": true,
+      "skill_level": 19.79827653663741,
+      "position": [
+        671.8576826779857,
+        263.4673924134278
+      ],
+      "target_position": [
+        337.6607487696757,
+        290.5407235895356
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          337.6607487696757,
+          290.5407235895356
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2400000000000002,
+        "REST": 1.097,
+        "WORK": 1.2600000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.3619999999999997,
+        "SOCIALIZE": 1.2209999999999999
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.32
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.27
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.27
+        },
+        {
+          "tick": 10,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.37
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "Farmed 0.4 food",
+          "reward": 0.5
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.35000000000000003
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Farmed 0.4 food",
+          "reward": 0.7
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 24,
+          "action": "WORK",
+          "outcome": "Farmed 0.4 food",
+          "reward": 0.7
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Farmed 0.4 food",
+          "reward": 0.7
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "age": 16.502333628270232,
+      "health": 100,
+      "happiness": 84.08088235290974,
+      "hunger": 3.0,
+      "role": "CHILD",
+      "has_home": true,
+      "skill_level": 8.986201725215683,
+      "position": [
+        837.9498088075326,
+        206.74130913810362
+      ],
+      "target_position": [
+        821.9131473210308,
+        181.4723300296165
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": null,
+      "action_weights": {
+        "EAT": 1.234,
+        "REST": 1.471,
+        "WORK": 1.0,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.388,
+        "SOCIALIZE": 1.321
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.52
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.52
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.47000000000000003
+        },
+        {
+          "tick": 10,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 11,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.47000000000000003
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.5700000000000001
+        },
+        {
+          "tick": 13,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 14,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 16,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 18,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "age": 30.9629450085307,
+      "health": 99.5000000000001,
+      "happiness": 97.87098005271847,
+      "hunger": 5.5,
+      "role": "WORKER",
+      "has_home": false,
+      "skill_level": 7.097178434563472,
+      "position": [
+        514.3046674240662,
+        480.812734140313
+      ],
+      "target_position": [
+        950.440782770576,
+        317.11002911649797
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          950.440782770576,
+          317.11002911649797
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1500000000000001,
+        "REST": 1.0,
+        "WORK": 1.344999999999999,
+        "BUILD": 1.1,
+        "LEARN": 1.0,
+        "WANDER": 1.06,
+        "SOCIALIZE": 1.0799999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 9,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 15,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 16,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 20,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.14999999999999997
+        },
+        {
+          "tick": 21,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.14999999999999997
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "age": 41.50145109333342,
+      "health": 99.5000000000001,
+      "happiness": 99.918784519374,
+      "hunger": 2.0,
+      "role": "WORKER",
+      "has_home": false,
+      "skill_level": 16.222934128902907,
+      "position": [
+        1008.8138839622518,
+        303.77306199285533
+      ],
+      "target_position": [
+        275.6800225649604,
+        287.20442736243314
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          275.6800225649604,
+          287.20442736243314
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.12,
+        "REST": 1.0,
+        "WORK": 1.0799999999999996,
+        "BUILD": 1.12,
+        "LEARN": 1.0,
+        "WANDER": 1.04,
+        "SOCIALIZE": 1.0549999999999993
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -3.469446951953614e-18
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -3.469446951953614e-18
+        },
+        {
+          "tick": 9,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -3.469446951953614e-18
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 12,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 13,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.14999999999999997
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.14999999999999997
+        },
+        {
+          "tick": 15,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.3
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 23,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 24,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "age": 21.1846032780386,
+      "health": 99.5000000000001,
+      "happiness": 74.49998727103485,
+      "hunger": 6.5,
+      "role": "FARMER",
+      "has_home": false,
+      "skill_level": 17.409434507007767,
+      "position": [
+        841.5946704090628,
+        466.73149189918854
+      ],
+      "target_position": [
+        1005.7578825461325,
+        436.73769293439676
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1005.7578825461325,
+          436.73769293439676
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1409999999999998,
+        "REST": 1.0,
+        "WORK": 1.3019999999999996,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1079999999999999,
+        "SOCIALIZE": 1.138
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 9,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.37
+        },
+        {
+          "tick": 10,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.37
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.37
+        },
+        {
+          "tick": 13,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.37
+        },
+        {
+          "tick": 14,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 15,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.37
+        },
+        {
+          "tick": 16,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.37
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Farmed 0.3 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "age": 44.43856586614876,
+      "health": 92.99384277419054,
+      "happiness": 95.81887303962638,
+      "hunger": 6.0,
+      "role": "BUILDER",
+      "has_home": false,
+      "skill_level": 15.503643739948954,
+      "position": [
+        937.2391517379184,
+        192.10407260920897
+      ],
+      "target_position": [
+        650.7197598434412,
+        388.507750602818
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "CONSTRUCT",
+        "target_position": [
+          650.7197598434412,
+          388.507750602818
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1800000000000002,
+        "REST": 1.0,
+        "WORK": 1.06,
+        "BUILD": 1.2000000000000002,
+        "LEARN": 1.0,
+        "WANDER": 1.1,
+        "SOCIALIZE": 1.1999999999999993
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 10,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 12,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 13,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 21,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "age": 36.561204739486065,
+      "health": 99.5000000000001,
+      "happiness": 90.5604905374753,
+      "hunger": 2.5,
+      "role": "THINKER",
+      "has_home": false,
+      "skill_level": 19.694127639368958,
+      "position": [
+        943.6583122691841,
+        577.1537824596702
+      ],
+      "target_position": [
+        955.3925559796912,
+        318.73792338043575
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          955.3925559796912,
+          318.73792338043575
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2100000000000002,
+        "REST": 1.0,
+        "WORK": 1.2400000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.12,
+        "SOCIALIZE": 1.1249999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 10,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 11,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "age": 21.294405840274933,
+      "health": 99.5000000000001,
+      "happiness": 99.80000000000001,
+      "hunger": 11.5,
+      "role": "FARMER",
+      "has_home": false,
+      "skill_level": 9.661949681626936,
+      "position": [
+        681.0815119604323,
+        421.91085966663474
+      ],
+      "target_position": [
+        1000.4978036226047,
+        453.9817228319711
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1000.4978036226047,
+          453.9817228319711
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2100000000000002,
+        "REST": 1.0,
+        "WORK": 1.2800000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.06,
+        "SOCIALIZE": 1.2249999999999992
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 14,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 21,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 24,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "age": 44.080307492126536,
+      "health": 99.5000000000001,
+      "happiness": 78.54086805669104,
+      "hunger": 9.5,
+      "role": "THINKER",
+      "has_home": false,
+      "skill_level": 7.850900939902555,
+      "position": [
+        879.6415276970356,
+        272.0322242655391
+      ],
+      "target_position": [
+        274.7517467335801,
+        391.99525868934506
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          274.7517467335801,
+          391.99525868934506
+        ],
+        "target_id": 3,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1919999999999995,
+        "REST": 1.0,
+        "WORK": 1.2249999999999996,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.0679999999999996,
+        "SOCIALIZE": 1.1629999999999998
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.27
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 13,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.27
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.27
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 16,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.27
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.27
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "age": 29.601464133921237,
+      "health": 94.82174399951865,
+      "happiness": 87.03686957902862,
+      "hunger": 1.0,
+      "role": "BUILDER",
+      "has_home": false,
+      "skill_level": 10.637959743426885,
+      "position": [
+        409.24471723853884,
+        519.0420332709338
+      ],
+      "target_position": [
+        617.960441807862,
+        391.07445084530826
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "CONSTRUCT",
+        "target_position": [
+          617.960441807862,
+          391.07445084530826
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2009999999999998,
+        "REST": 1.0,
+        "WORK": 1.0839999999999999,
+        "BUILD": 1.1139999999999999,
+        "LEARN": 1.0,
+        "WANDER": 1.1079999999999997,
+        "SOCIALIZE": 1.1719999999999995
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.27
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 9,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.27
+        },
+        {
+          "tick": 10,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.37
+        },
+        {
+          "tick": 11,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 12,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.37
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 15,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 17,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "age": 42.10622688589297,
+      "health": 91.48413284956952,
+      "happiness": 97.90162198375316,
+      "hunger": 4.0,
+      "role": "THINKER",
+      "has_home": false,
+      "skill_level": 9.098994875886149,
+      "position": [
+        860.5788035719551,
+        307.61546208400074
+      ],
+      "target_position": [
+        995.1417924071532,
+        439.6978595979352
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          995.1417924071532,
+          439.6978595979352
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.177,
+        "REST": 1.0,
+        "WORK": 1.1800000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.057,
+        "SOCIALIZE": 1.2469999999999992
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 8,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 12,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 13,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 16,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 21,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 22,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "age": 39.37526005319246,
+      "health": 99.5000000000001,
+      "happiness": 82.41085864712694,
+      "hunger": 4.5,
+      "role": "WORKER",
+      "has_home": false,
+      "skill_level": 12.66590184518353,
+      "position": [
+        443.3196071630491,
+        325.5963614541053
+      ],
+      "target_position": [
+        1012.3518379024329,
+        430.5598201848142
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1012.3518379024329,
+          430.5598201848142
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.117,
+        "REST": 1.0,
+        "WORK": 1.0699999999999998,
+        "BUILD": 1.1109999999999998,
+        "LEARN": 1.0,
+        "WANDER": 1.1019999999999999,
+        "SOCIALIZE": 1.1279999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -0.030000000000000002
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.020000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.16999999999999998
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.020000000000000004
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.020000000000000004
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 13,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 16,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 23,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.35
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "age": 21.119698257253347,
+      "health": 99.5000000000001,
+      "happiness": 77.57498409222025,
+      "hunger": 10.0,
+      "role": "THINKER",
+      "has_home": false,
+      "skill_level": 13.978605822260146,
+      "position": [
+        296.06163505172987,
+        458.91091475283514
+      ],
+      "target_position": [
+        1009.2810821730802,
+        313.6053605320008
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1009.2810821730802,
+          313.6053605320008
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1889999999999994,
+        "REST": 1.0,
+        "WORK": 1.1409999999999998,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1049999999999995,
+        "SOCIALIZE": 1.1849999999999998
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 8,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.27
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 15,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 16,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 21,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "age": 44.098233105028804,
+      "health": 95.59504827845892,
+      "happiness": 88.91851525671407,
+      "hunger": 2.5,
+      "role": "THINKER",
+      "has_home": false,
+      "skill_level": 12.540076373804432,
+      "position": [
+        728.621216004873,
+        477.39721944649875
+      ],
+      "target_position": [
+        1002.6894547397183,
+        310.18716106800304
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1002.6894547397183,
+          310.18716106800304
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.177,
+        "REST": 1.0,
+        "WORK": 1.2100000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.117,
+        "SOCIALIZE": 1.1719999999999995
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 8,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 16,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 21,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "age": 35.28479657707986,
+      "health": 91.76926235332738,
+      "happiness": 100,
+      "hunger": 3.0,
+      "role": "THINKER",
+      "has_home": false,
+      "skill_level": 14.87948464550072,
+      "position": [
+        1155.6075402468207,
+        178.04815837631858
+      ],
+      "target_position": [
+        293.67105459882384,
+        383.4795453362613
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          293.67105459882384,
+          383.4795453362613
+        ],
+        "target_id": 3,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.12,
+        "REST": 1.0,
+        "WORK": 1.11,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.2000000000000002,
+        "SOCIALIZE": 1.1349999999999993
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 11,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Advanced knowledge",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "age": 23.195632333341162,
+      "health": 99.5000000000001,
+      "happiness": 80.39959202174092,
+      "hunger": 12.5,
+      "role": "HEALER",
+      "has_home": false,
+      "skill_level": 10.602185892627238,
+      "position": [
+        129.97623710461193,
+        405.61090823471955
+      ],
+      "target_position": [
+        1007.3670050359361,
+        274.6341055808394
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1007.3670050359361,
+          274.6341055808394
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.2279999999999998,
+        "REST": 1.0,
+        "WORK": 1.144,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1219999999999994,
+        "SOCIALIZE": 1.1409999999999998
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 9,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.27
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 11,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.17
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.27
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "age": 32.63697131564058,
+      "health": 99.5000000000001,
+      "happiness": 86.22895689123587,
+      "hunger": 11.0,
+      "role": "HEALER",
+      "has_home": false,
+      "skill_level": 14.797711205757517,
+      "position": [
+        698.2602471492356,
+        326.6440395225553
+      ],
+      "target_position": [
+        291.59975091231604,
+        320.3351086793013
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          291.59975091231604,
+          320.3351086793013
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.147,
+        "REST": 1.0,
+        "WORK": 1.09,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.217,
+        "SOCIALIZE": 1.1719999999999995
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 8,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 12,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 17,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 19,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "age": 8.809289735433962,
+      "health": 100,
+      "happiness": 86.5421913969364,
+      "hunger": 1.0,
+      "role": "CHILD",
+      "has_home": true,
+      "skill_level": 14.497558583568361,
+      "position": [
+        816.0400994178699,
+        206.14143925410235
+      ],
+      "target_position": [
+        794.1289236280621,
+        180.60957990497528
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": null,
+      "action_weights": {
+        "EAT": 1.6000000000000005,
+        "REST": 1.294,
+        "WORK": 1.0,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.2970000000000002,
+        "SOCIALIZE": 1.269
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 10,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 11,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 17,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 18,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 19,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 20,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 21,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.5
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 24,
+          "action": "REST",
+          "outcome": "Rested at home",
+          "reward": 0.6
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.6
+        },
+        {
+          "tick": 26,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.55
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "age": 32.73287065203631,
+      "health": 91.99876837833548,
+      "happiness": 90.92649590920237,
+      "hunger": 1.0,
+      "role": "HEALER",
+      "has_home": false,
+      "skill_level": 5.9799845134726155,
+      "position": [
+        1159.4101434656384,
+        408.7628354153384
+      ],
+      "target_position": [
+        1008.1474226770165,
+        300.76703874661825
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          1008.1474226770165,
+          300.76703874661825
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.09,
+        "REST": 1.0,
+        "WORK": 1.154,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.094,
+        "SOCIALIZE": 1.1189999999999993
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -3.469446951953614e-18
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 11,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 16,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 19,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 23,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 24,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "age": 21.14581727712216,
+      "health": 89.55039122402266,
+      "happiness": 82.14433765324428,
+      "hunger": 2.0,
+      "role": "HEALER",
+      "has_home": false,
+      "skill_level": 15.650069943639828,
+      "position": [
+        547.243950543573,
+        550.8290361738331
+      ],
+      "target_position": [
+        970.877518109048,
+        394.18304297798903
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          970.877518109048,
+          394.18304297798903
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.12,
+        "REST": 1.0,
+        "WORK": 1.214,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1139999999999999,
+        "SOCIALIZE": 1.1459999999999997
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.22000000000000003
+        },
+        {
+          "tick": 8,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -3.469446951953614e-18
+        },
+        {
+          "tick": 10,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.1
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 12,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 14,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 15,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "age": 42.638549232677136,
+      "health": 96.25833544040718,
+      "happiness": 96.83340890680924,
+      "hunger": 8.0,
+      "role": "FARMER",
+      "has_home": false,
+      "skill_level": 8.432122477408067,
+      "position": [
+        1040.5902192121812,
+        468.9595570440706
+      ],
+      "target_position": [
+        984.5987695439501,
+        337.63517201394404
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          984.5987695439501,
+          337.63517201394404
+        ],
+        "target_id": 2,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.12,
+        "REST": 1.0,
+        "WORK": 1.3600000000000003,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.1400000000000001,
+        "SOCIALIZE": 1.1249999999999996
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 9,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 10,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Farmed 0.1 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "Farmed 0.1 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 13,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 14,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 17,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 19,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 20,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 21,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 25,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        },
+        {
+          "tick": 26,
+          "action": "WORK",
+          "outcome": "Farmed 0.2 food",
+          "reward": 0.4
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "age": 18.949456583426063,
+      "health": 90.39042404908122,
+      "happiness": 95.72751554974816,
+      "hunger": 24.1920720861402,
+      "role": "WORKER",
+      "has_home": false,
+      "skill_level": 11.846150738649053,
+      "position": [
+        941.1505746185247,
+        449.0649139826189
+      ],
+      "target_position": [
+        962.7341314137068,
+        443.698563836431
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          962.7341314137068,
+          443.698563836431
+        ],
+        "target_id": 4,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.09,
+        "REST": 1.0,
+        "WORK": 1.0649999999999997,
+        "BUILD": 1.3000000000000003,
+        "LEARN": 1.0,
+        "WANDER": 1.06,
+        "SOCIALIZE": 1.0649999999999995
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 8,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 9,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 10,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 11,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.14999999999999997
+        },
+        {
+          "tick": 12,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 13,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 14,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 15,
+          "action": "WORK",
+          "outcome": "Produced work",
+          "reward": 0.14999999999999997
+        },
+        {
+          "tick": 16,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.3
+        },
+        {
+          "tick": 17,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 18,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 19,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.2
+        },
+        {
+          "tick": 20,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": -3.469446951953614e-18
+        },
+        {
+          "tick": 21,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 22,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.05
+        },
+        {
+          "tick": 23,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "BUILD",
+          "outcome": "Contributed to construction",
+          "reward": 0.4
+        },
+        {
+          "tick": 25,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "age": 43.49188465054024,
+      "health": 99.5000000000001,
+      "happiness": 99.9,
+      "hunger": 10.0,
+      "role": "HEALER",
+      "has_home": false,
+      "skill_level": 9.372868218258493,
+      "position": [
+        1128.0128257674994,
+        300.19465530464936
+      ],
+      "target_position": [
+        332.14309252441274,
+        314.41165735129186
+      ],
+      "illness": "NONE",
+      "illness_duration": 0,
+      "productivity_modifier": 1.0,
+      "assigned_task": {
+        "task_type": "GATHER_FOOD",
+        "target_position": [
+          332.14309252441274,
+          314.41165735129186
+        ],
+        "target_id": 1,
+        "priority": 1.0,
+        "duration": 0
+      },
+      "action_weights": {
+        "EAT": 1.1800000000000002,
+        "REST": 1.0,
+        "WORK": 1.2100000000000002,
+        "BUILD": 1.0,
+        "LEARN": 1.0,
+        "WANDER": 1.06,
+        "SOCIALIZE": 1.229999999999999
+      },
+      "memory": [
+        {
+          "tick": 7,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 8,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 9,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 10,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 11,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 12,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 13,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 14,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 15,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 16,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 17,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 18,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 19,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 20,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 21,
+          "action": "EAT",
+          "outcome": "Ate food",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 22,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 23,
+          "action": "WORK",
+          "outcome": "General work",
+          "reward": 0.30000000000000004
+        },
+        {
+          "tick": 24,
+          "action": "SOCIALIZE",
+          "outcome": "Socialized",
+          "reward": 0.25
+        },
+        {
+          "tick": 25,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        },
+        {
+          "tick": 26,
+          "action": "WANDER",
+          "outcome": "Wandered",
+          "reward": 0.2
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "food": 1.0826278586953468,
+    "housing_capacity": 20,
+    "work_capacity": 5.2412117658464705,
+    "knowledge": 3.5093220750145115
+  },
+  "building_manager": {
+    "buildings": [
+      {
+        "id": 1,
+        "building_type": "HOUSING",
+        "position": [
+          640,
+          360
+        ],
+        "construction_progress": 114.25432620848532,
+        "labor_cost": 640.0,
+        "workers_assigned": 0,
+        "load": 0.0,
+        "size": 40.0
+      }
+    ],
+    "next_id": 2
+  },
+  "stats": {
+    "total_ticks": 26,
+    "total_births": 0,
+    "total_deaths": 0,
+    "peak_population": 40,
+    "total_food_produced": 0.0,
+    "total_food_consumed": 0.0,
+    "buildings_completed": 0,
+    "illness_deaths": 0,
+    "villagers_healed": 0
+  },
+  "evolution": {
+    "evolution_number": 1,
+    "learned_action_weights": {
+      "EAT": 1.2291076245679478,
+      "REST": 1.1164750993814114,
+      "WORK": 1.2106943594811326,
+      "BUILD": 1.0876245186231572,
+      "LEARN": 1.0,
+      "WANDER": 1.1632442940729806,
+      "SOCIALIZE": 1.1981262027272075
+    },
+    "extinction_causes": [],
+    "best_peak_population": 0,
+    "best_survival_ticks": 0,
+    "hospital_priority_bias": 1.0
+  },
+  "history": {
+    "first_hospital_tick": null,
+    "first_research_tick": null,
+    "crises_survived": [],
+    "population_peaks": [],
+    "major_outbreaks": 0
+  },
+  "research": {
+    "insight_points": 0.0,
+    "specializations": {
+      "AGRICULTURE": 0,
+      "MEDICINE": 0,
+      "ENGINEERING": 0,
+      "EDUCATION": 0
+    },
+    "pending_insights": 0.0,
+    "research_decisions": []
+  },
+  "planner": {
+    "short_term_memory": [],
+    "building_bias": {
+      "HOUSING": 1.0,
+      "FARM": 1.0,
+      "HOSPITAL": 1.0,
+      "RESEARCH_CENTER": 1.0,
+      "WORKSHOP": 1.0,
+      "SCHOOL": 1.0
+    },
+    "research_bias": {
+      "AGRICULTURE": 1.0,
+      "MEDICINE": 1.0,
+      "ENGINEERING": 1.0,
+      "EDUCATION": 1.0
+    },
+    "decisions_made": 0
+  },
+  "resource_nodes": [
+    {
+      "id": 1,
+      "node_type": "FOOD",
+      "position": [
+        300,
+        300
+      ],
+      "amount": 100.0,
+      "capacity": 5,
+      "current_users": 0
+    },
+    {
+      "id": 2,
+      "node_type": "FOOD",
+      "position": [
+        980,
+        300
+      ],
+      "amount": 100.0,
+      "capacity": 5,
+      "current_users": 0
+    },
+    {
+      "id": 3,
+      "node_type": "FOOD",
+      "position": [
+        300,
+        420
+      ],
+      "amount": 100.0,
+      "capacity": 5,
+      "current_users": 0
+    },
+    {
+      "id": 4,
+      "node_type": "FOOD",
+      "position": [
+        980,
+        420
+      ],
+      "amount": 100.0,
+      "capacity": 5,
+      "current_users": 0
+    },
+    {
+      "id": 5,
+      "node_type": "MATERIAL",
+      "position": [
+        390,
+        510
+      ],
+      "amount": 100.0,
+      "capacity": 5,
+      "current_users": 0
+    },
+    {
+      "id": 6,
+      "node_type": "MATERIAL",
+      "position": [
+        890,
+        210
+      ],
+      "amount": 100.0,
+      "capacity": 5,
+      "current_users": 0
+    }
+  ],
+  "next_node_id": 7,
+  "next_villager_id": 41,
+  "_meta": {
+    "saved_at": "2025-12-25T12:37:09.398301",
+    "version": "1.0.0"
+  }
+}

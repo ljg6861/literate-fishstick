@@ -1,0 +1,21 @@
+13:06:24 [INFO] Initializing The Village...
+13:06:24 [INFO] Screen: 1280x720
+13:06:24 [INFO] Created new world with seed 483677799
+13:06:24 [INFO] Initialization complete
+13:06:24 [INFO] Starting simulation loop
+13:06:34 [DEBUG] Tick 100: pop=40, food=0.2, stability=0.68
+13:06:44 [DEBUG] Tick 200: pop=40, food=0.7, stability=0.71
+13:06:54 [DEBUG] Tick 300: pop=40, food=0.9, stability=0.75
+13:07:04 [DEBUG] Tick 400: pop=40, food=0.8, stability=0.75
+13:07:14 [DEBUG] Tick 500: pop=40, food=0.7, stability=0.75
+13:07:24 [DEBUG] Tick 600: pop=40, food=1.6, stability=0.75
+13:07:34 [DEBUG] Tick 700: pop=40, food=6.8, stability=0.75
+13:07:44 [DEBUG] Tick 800: pop=40, food=16.6, stability=0.77
+13:07:54 [DEBUG] Tick 900: pop=40, food=87.3, stability=0.85
+13:08:04 [DEBUG] Tick 1000: pop=40, food=272.9, stability=0.99
+13:08:14 [DEBUG] Tick 1100: pop=40, food=617.2, stability=0.99
+13:08:24 [DEBUG] Tick 1200: pop=41, food=945.7, stability=0.99
+13:08:34 [DEBUG] Tick 1300: pop=43, food=1197.8, stability=0.99
+13:08:39 [INFO] Shutting down...
+13:08:39 [INFO] Final save complete
+13:08:39 [INFO] Shutdown complete

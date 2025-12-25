@@ -3,6 +3,7 @@ Tower Builder AI - Deep Learning Training Loop
 
 This script trains a DQN agent to stack blocks in a physics simulation.
 Uses PyTorch for neural network training with experience replay.
+Optionally uses MCTS for better action selection (AlphaZero-style).
 """
 
 import pygame
@@ -10,6 +11,7 @@ import math
 import random
 from tower_sim import TowerSimulation
 from deep_tower_agent import DeepTowerAgent
+from mcts import MCTSAgent
 
 
 def main():
@@ -21,7 +23,11 @@ def main():
     font = pygame.font.SysFont("Arial", 16)
     
     sim = TowerSimulation(width, height)
-    agent = DeepTowerAgent(screen_width=width)
+    base_agent = DeepTowerAgent(screen_width=width)
+    
+    # Wrap with MCTS for improved decision making
+    agent = MCTSAgent(base_agent, num_simulations=30, use_mcts_training=True)
+    use_mcts = False  # Toggle with 'M' key
     
     episodes = 0
     max_height_record = 0
@@ -70,6 +76,10 @@ def main():
                         # Save checkpoint
                         agent.save("tower_agent_checkpoint.pt")
                         print(f"Saved checkpoint at episode {episodes}")
+                    elif event.key == pygame.K_m:
+                        # Toggle MCTS mode
+                        use_mcts = not use_mcts
+                        print(f"MCTS {'ON' if use_mcts else 'OFF'}")
             
             if not running: 
                 break
@@ -81,7 +91,7 @@ def main():
                     
                 # 1. Choose Action (now returns (x_position, rotation) tuple)
                 current_block = sim.next_block
-                action = agent.choose_action(state)
+                action = agent.choose_action(state, use_mcts=use_mcts)
                 place_x, place_rotation = action
                 
                 # 2. Spawn Block with agent-chosen rotation
@@ -181,7 +191,7 @@ def main():
             
             # Render
             render_frame(sim, screen, font, agent, episodes, max_height_record,
-                        current_tower_height, state, camera_y)
+                        current_tower_height, state, camera_y, use_mcts)
             pygame.display.flip()
             clock.tick(60)
         
@@ -205,19 +215,20 @@ def main():
 
 
 def render_frame(sim, screen, font, agent, episodes, max_height_record,
-                 current_tower_height, state, camera_y):
+                 current_tower_height, state, camera_y, use_mcts=False):
     """Render a single frame with HUD."""
     sim.render(screen, scroll_y=camera_y)
     
     stats = agent.get_stats()
+    mcts_status = "MCTS: ON" if use_mcts else "MCTS: OFF"
     
     # HUD
     hud_lines = [
         f"Episode: {episodes} | Record: {max_height_record}",
-        f"Height: {current_tower_height}",
+        f"Height: {current_tower_height} | {mcts_status}",
         f"ε: {stats['epsilon']:.3f} | Buffer: {stats['buffer_size']}",
         f"Loss: {stats['avg_loss']:.4f}",
-        f"[←] Watch | [→] Turbo | [S] Save"
+        f"[←] Watch | [→] Turbo | [M] MCTS | [S] Save"
     ]
     
     for i, txt in enumerate(hud_lines):

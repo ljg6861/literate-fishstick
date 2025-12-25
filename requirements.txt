@@ -1,5 +1,7 @@
-# The Village - Phase 1
+# Tower Builder AI - Deep Learning
 # Requirements
 
 pygame>=2.5.0
 pymunk>=6.0.0
+torch>=2.0.0
+numpy>=1.24.0

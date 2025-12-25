@@ -5,6 +5,12 @@ import random
 import math
 
 class TowerSimulation:
+    # Block shape types
+    SHAPE_SQUARE = 0
+    SHAPE_WIDE = 1
+    SHAPE_TALL = 2
+    SHAPE_TRIANGLE = 3
+    
     def __init__(self, width=800, height=600):
         self.width = width
         self.height = height
@@ -24,6 +30,9 @@ class TowerSimulation:
         self.score = 0
         self.highest_point = height
         
+        # Next block preview
+        self.next_block = None
+        
         self.reset()
         
     def reset(self):
@@ -41,26 +50,64 @@ class TowerSimulation:
         self.ground.friction = 1.0
         self.space.add(self.ground)
         
-    def spawn_block(self, x_pos, angle=0.0):
-        """Spawn a block at the given x position and angle."""
+        # Generate first next block
+        self.next_block = self.generate_next_block()
+    
+    def generate_next_block(self):
+        """Generate random block properties for next drop."""
+        shape_type = random.choice([self.SHAPE_SQUARE, self.SHAPE_WIDE, self.SHAPE_TALL, self.SHAPE_TRIANGLE])
+        angle = random.uniform(-0.3, 0.3)  # Slight random rotation
+        
+        # Size based on shape
+        if shape_type == self.SHAPE_SQUARE:
+            w, h = 50, 50
+        elif shape_type == self.SHAPE_WIDE:
+            w, h = 80, 30
+        elif shape_type == self.SHAPE_TALL:
+            w, h = 30, 70
+        else:  # TRIANGLE
+            w, h = 60, 50
+        
+        return {'shape': shape_type, 'width': w, 'height': h, 'angle': angle}
+        
+    def spawn_block(self, x_pos, block_type=None):
+        """Spawn a block at the given x position using block_type properties."""
         if self.game_over:
             return
-            
-        mass = 1
-        width = 50
-        height = 50
-        moment = pymunk.moment_for_box(mass, (width, height))
-        body = pymunk.Body(mass, moment)
-        body.position = (x_pos, 100) # Spawn near top
-        body.angle = angle
         
-        shape = pymunk.Poly.create_box(body, (width, height))
+        if block_type is None:
+            block_type = self.next_block or self.generate_next_block()
+        
+        mass = 1
+        w = block_type['width']
+        h = block_type['height']
+        angle = block_type['angle']
+        shape_type = block_type['shape']
+        
+        if shape_type == self.SHAPE_TRIANGLE:
+            # Triangle vertices
+            vertices = [(-w/2, h/2), (w/2, h/2), (0, -h/2)]
+            moment = pymunk.moment_for_poly(mass, vertices)
+            body = pymunk.Body(mass, moment)
+            body.position = (x_pos, 100)
+            body.angle = angle
+            shape = pymunk.Poly(body, vertices)
+        else:
+            moment = pymunk.moment_for_box(mass, (w, h))
+            body = pymunk.Body(mass, moment)
+            body.position = (x_pos, 100)
+            body.angle = angle
+            shape = pymunk.Poly.create_box(body, (w, h))
+        
         shape.friction = 0.5
         shape.elasticity = 0.1
         
         self.space.add(body, shape)
         self.blocks.append(body)
         self.score += 1
+        
+        # Generate next block for preview
+        self.next_block = self.generate_next_block()
         
     def step(self):
         """Advance physics one step."""

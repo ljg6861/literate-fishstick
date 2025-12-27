@@ -1,0 +1,30 @@
+{
+  "config": {
+    "task": "reversal",
+    "seq_length": 4,
+    "max_samples": 2000,
+    "target_accuracy": 0.95,
+    "device": "cuda"
+  },
+  "results": {
+    "muzero": {
+      "total_samples": 2000,
+      "total_episodes": 500,
+      "total_steps": 1748,
+      "best_accuracy": 0.545,
+      "final_accuracy": 0.4575,
+      "samples_to_target": null,
+      "elapsed_time": 98.8926260471344,
+      "eval_accuracy": 0.5025
+    },
+    "supervised": {
+      "total_samples": 2048,
+      "total_steps": 8,
+      "best_accuracy": 0.0,
+      "final_accuracy": 0.525,
+      "samples_to_target": null,
+      "elapsed_time": 0.047699928283691406,
+      "eval_accuracy": 0.465
+    }
+  }
+}

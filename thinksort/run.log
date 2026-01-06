@@ -1,0 +1,67 @@
+Device: cuda
+⚡ Using 2 GPUs!
+🚀 Universal Pointer Network
+   Universal Block: 4x recurrent
+   Train: (4, 8, 16) → Test: 1000 (Zero-Shot!)
+   Parameters: 248,321
+🧬 STARTING SELF-EVOLVING TRAINING
+
+🚀 CURRICULUM LEVEL UP! Unlocked N=8 [High Accuracy (90.1%)]
+
+🚀 CURRICULUM LEVEL UP! Unlocked N=16 [High Accuracy (99.9%)]
+
+🚀 CURRICULUM LEVEL UP! Unlocked N=32 [High Accuracy (99.8%)]
+
+🚀 CURRICULUM LEVEL UP! Unlocked N=64 [High Accuracy (99.7%)]
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt
+Saved checkpoint to checkpoint_latest.pt

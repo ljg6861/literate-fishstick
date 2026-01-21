@@ -90,6 +90,32 @@ class ACTLossHead(nn.Module):
             "lm_loss": lm_loss.detach(),
             "q_halt_loss": q_halt_loss.detach(),
         })
+
+        # Stability loss from underlying model
+        stability_loss = 0.0
+        if "stability_loss" in outputs:
+            # We treat stability loss as a per-sample scalar, or aggregate it
+            # outputs["stability_loss"] is likely a tensor or float
+            stab_val = outputs["stability_loss"]
+            if isinstance(stab_val, torch.Tensor) and stab_val.numel() > 1:
+                # If it's batched, sum it up
+                stability_loss = stab_val.sum()
+            elif isinstance(stab_val, torch.Tensor):
+                stability_loss = stab_val * new_carry.steps.shape[0] # Scale by batch size roughly? No, mean() was used in model.
+                # Actually in model: stability_loss = diff.norm().mean().
+                # So it's already a scalar mean over batch/seq.
+                # To match "sum" reduction of other losses, we should multiply by batch size.
+                # But let's check: lm_loss is summed. q_halt_loss is summed.
+                # So we should sum stability loss over batch.
+                # If model returns mean, we mult by batch_size.
+                stability_loss = stab_val * labels.shape[0]
+            else:
+                stability_loss = stab_val
+
+            # Weighting for stability loss? Let's use 0.1 as default
+            metrics["stability_loss"] = stability_loss.detach() if isinstance(stability_loss, torch.Tensor) else torch.tensor(stability_loss)
+            stability_loss = 0.1 * stability_loss
+
         # Q continue (bootstrapping target loss); Alexia: This fits Q-learning, but seems totally unecessary
         q_continue_loss = 0
         if "target_q_continue" in outputs:
@@ -99,5 +125,5 @@ class ACTLossHead(nn.Module):
         # Filter outputs for return
         detached_outputs = {k: outputs[k].detach() for k in return_keys if k in outputs}
 
-        return new_carry, lm_loss + 0.5 * (q_halt_loss + q_continue_loss), metrics, detached_outputs, new_carry.halted.all()
+        return new_carry, lm_loss + 0.5 * (q_halt_loss + q_continue_loss) + stability_loss, metrics, detached_outputs, new_carry.halted.all()
 

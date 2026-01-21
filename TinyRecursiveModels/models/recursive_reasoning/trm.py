@@ -57,6 +57,10 @@ class TinyRecursiveReasoningModel_ACTV1Config(BaseModel):
 
     forward_dtype: str = "bfloat16"
 
+    # Efficient training
+    use_full_bptt: bool = True  # If True, backprop through all H-cycles (mathematically correct)
+    use_stability_loss: bool = True  # If True, add stability loss for z_H
+
     # Alexia: added
     mlp_t: bool = False # use mlp on L instead of transformer
     puzzle_emb_len: int = 16 # if non-zero, its specified to this value
@@ -206,23 +210,47 @@ class TinyRecursiveReasoningModel_ACTV1_Inner(nn.Module):
         input_embeddings = self._input_embeddings(batch["inputs"], batch["puzzle_identifiers"])
 
         # Forward iterations
-        it = 0
         z_H, z_L = carry.z_H, carry.z_L
-        # H-1 cycles without grad (cheap refinement passes)
-        with torch.no_grad():
-            for _H_step in range(H - 1):
+        stability_loss = 0.0
+
+        # Mathematical improvement: Option to enable full BPTT for rigorous training
+        use_full_bptt = getattr(self.config, 'use_full_bptt', False)
+
+        if use_full_bptt:
+            # Full BPTT through all H cycles
+            prev_z_H = z_H
+            for _H_step in range(H):
                 for _L_step in range(self.config.L_cycles):
                     z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
                 z_H = self.L_level(z_H, z_L, **seq_info)
-        # Last cycle with grad (learning happens here)
-        for _L_step in range(self.config.L_cycles):
-            z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
-        z_H = self.L_level(z_H, z_L, **seq_info)
+
+                # Stability loss: force z_H to converge
+                if getattr(self.config, 'use_stability_loss', False) and _H_step > 0:
+                    diff = z_H - prev_z_H
+                    stability_loss = stability_loss + diff.norm(p=2, dim=-1).mean()
+                prev_z_H = z_H
+        else:
+            # Original: H-1 cycles without grad (heuristic approximation)
+            with torch.no_grad():
+                for _H_step in range(H - 1):
+                    for _L_step in range(self.config.L_cycles):
+                        z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
+                    z_H = self.L_level(z_H, z_L, **seq_info)
+            # Last cycle with grad (learning happens here)
+            for _L_step in range(self.config.L_cycles):
+                z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
+            z_H = self.L_level(z_H, z_L, **seq_info)
 
         # LM Outputs
         new_carry = TinyRecursiveReasoningModel_ACTV1InnerCarry(z_H=z_H.detach(), z_L=z_L.detach())  # New carry no grad
         output = self.lm_head(z_H)[:, self.puzzle_emb_len:]
         q_logits = self.q_head(z_H[:, 0]).to(torch.float32) # Q-head; uses the first puzzle_emb position
+
+        # Attach stability loss to outputs if present
+        if isinstance(stability_loss, torch.Tensor):
+            # Hack: attach to q_logits tuple so it propagates out
+            return new_carry, output, (q_logits[..., 0], q_logits[..., 1], stability_loss)
+
         return new_carry, output, (q_logits[..., 0], q_logits[..., 1])
 
 
@@ -272,12 +300,21 @@ class TinyRecursiveReasoningModel_ACTV1(nn.Module):
         new_current_data = {k: torch.where(carry.halted.view((-1, ) + (1, ) * (batch[k].ndim - 1)), batch[k], v) for k, v in carry.current_data.items()}
 
         # Forward inner model with optional h_cycles override
-        new_inner_carry, logits, (q_halt_logits, q_continue_logits) = self.inner(new_inner_carry, new_current_data, h_cycles=h_cycles)
+        inner_out = self.inner(new_inner_carry, new_current_data, h_cycles=h_cycles)
+        new_inner_carry = inner_out[0]
+        logits = inner_out[1]
+
+        # Handle optional stability loss in return tuple
+        q_tuple = inner_out[2]
+        q_halt_logits = q_tuple[0]
+        q_continue_logits = q_tuple[1]
+        stability_loss = q_tuple[2] if len(q_tuple) > 2 else 0.0
 
         outputs = {
             "logits": logits,
             "q_halt_logits": q_halt_logits,
-            "q_continue_logits": q_continue_logits
+            "q_continue_logits": q_continue_logits,
+            "stability_loss": stability_loss
         }
 
         with torch.no_grad():
@@ -307,7 +344,10 @@ class TinyRecursiveReasoningModel_ACTV1(nn.Module):
                     # NOTE: No replay buffer and target networks for computing target Q-value.
                     # As batch_size is large, there're many parallel envs.
                     # Similar concept as PQN https://arxiv.org/abs/2407.04811
-                    _, _, (next_q_halt_logits, next_q_continue_logits), _, _ = self.inner(new_inner_carry, new_current_data, h_cycles=h_cycles)
+                    _inner_out = self.inner(new_inner_carry, new_current_data, h_cycles=h_cycles)
+                    _q_tuple = _inner_out[2]
+                    next_q_halt_logits = _q_tuple[0]
+                    next_q_continue_logits = _q_tuple[1]
                     outputs["target_q_continue"] = torch.sigmoid(torch.where(is_last_step, next_q_halt_logits, torch.maximum(next_q_halt_logits, next_q_continue_logits)))
 
         return TinyRecursiveReasoningModel_ACTV1Carry(new_inner_carry, new_steps, halted, new_current_data), outputs

@@ -1,0 +1,53 @@
+# TRM with efficient training (DoRA + GaLore)
+# This config adds efficient training settings to the base TRM config
+
+defaults:
+  - arch: trm
+  - _self_
+
+hydra:
+  output_subdir: null
+
+# Data
+data_paths: ['data/arc1concept-aug-1000']
+data_paths_test: []
+
+# Evaluators - use ARCFast with early-stop for faster evaluation
+evaluators:
+  - name: evaluators.arc_fast@ARCFast
+
+# Training hyperparams - OPTIMIZED for 2x RTX 3090 (48GB total)
+# Using linear scaling rule: batch 2× → LR 2×, warmup 2×
+global_batch_size: 128  # Was 64 - each GPU gets 64 samples
+epochs: 1000
+
+lr: 4e-4           # Was 2e-4 - scaled 2× with batch size
+lr_min_ratio: 0.1
+lr_warmup_steps: 1000  # Was 500 - scaled 2× with batch size
+
+beta1: 0.9
+beta2: 0.95
+weight_decay: 0.1
+puzzle_emb_weight_decay: 0.1
+puzzle_emb_lr: 2e-2    # Was 1e-2 - scaled 2× with batch size
+
+# Evaluation and checkpointing
+# NOTE: eval_interval is in EPOCHS, not steps! (~31 steps per epoch with batch=128)
+eval_interval: 20   # Every 20 epochs = ~620 steps (same as before with batch=64)
+checkpoint_every_eval: True
+checkpoint_path: checkpoints/trm_efficient
+
+# Efficient training settings (used by patched create_model)
+arch:
+  lora_rank: 16
+  lora_alpha: 32
+  use_dora: true
+  use_galore: true
+  galore_rank: 128
+
+seed: 0
+min_eval_interval: 0
+ema: True
+ema_rate: 0.999
+freeze_weights: False
+

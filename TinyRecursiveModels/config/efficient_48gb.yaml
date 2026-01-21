@@ -1,0 +1,66 @@
+# Efficient training config for 48GB GPUs (L40S, A6000)
+# Uses full precision + DoRA adapters + GaLore
+
+defaults:
+  - arch: trm
+  - _self_
+
+hydra:
+  output_subdir: null
+
+# Data path
+data_paths: ['data/arc1concept-aug-1000']
+data_paths_test: []
+
+evaluators:
+  - name: arc@ARC
+
+# Hyperparams - Training
+global_batch_size: 512
+
+epochs: 100000
+eval_interval: 10000
+checkpoint_every_eval: True
+
+lr: 1e-4
+lr_min_ratio: 0.1
+lr_warmup_steps: 2000
+
+beta1: 0.9
+beta2: 0.95
+weight_decay: 0.1
+puzzle_emb_weight_decay: 0.1
+
+puzzle_emb_lr: 1e-2
+
+seed: 0
+min_eval_interval: 0
+
+ema: True
+ema_rate: 0.999
+freeze_weights: False
+
+# Efficient training config
+efficient_training:
+  enabled: true
+  adapter:
+    type: dora
+    rank: 32
+    alpha: 64
+    dropout: 0.0
+    use_pissa: true
+    use_rslora: false
+  quantization:
+    enabled: false  # Full precision on 48GB
+    bits: 4
+    compute_dtype: bfloat16
+    use_loftq: false
+  galore:
+    enabled: true  # Use GaLore for optimizer memory
+    rank: 256
+    update_freq: 200
+    scale: 1.0
+  lora_plus:
+    enabled: true
+    lr_A: 1e-4
+    lr_B: 2e-4

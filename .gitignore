@@ -1,0 +1,19 @@
+
+# Checkpoints
+checkpoints/
+TinyRecursiveModels/checkpoints/
+*.pt
+*.ckpt
+
+# Large data files
+TinyRecursiveModels/data/
+data/
+*.npy
+
+# Wandb
+wandb/
+TinyRecursiveModels/wandb/
+
+# Python cache
+__pycache__/
+*.pyc

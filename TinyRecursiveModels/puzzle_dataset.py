@@ -179,13 +179,10 @@ class PuzzleDataset(IterableDataset):
                 local_end   = min(start_index + (self.config.rank + 1) * self.local_batch_size, end_index)
                 
                 # Get batch of examples, and also puzzle IDs
-                puzzle_indices = []
-                puzzle_index = np.searchsorted(dataset["puzzle_indices"], local_start, side="right") - 1
-                for i in range(local_start, local_end):
-                    while puzzle_index + 1 < len(dataset["puzzle_indices"]) and i >= dataset["puzzle_indices"][puzzle_index + 1]:
-                        puzzle_index += 1
-
-                    puzzle_indices.append(puzzle_index)
+                # OPTIMIZATION (Bolt): Use vectorized searchsorted instead of loop
+                # This reduces puzzle index mapping time from O(N) Python loop to O(N log M) C-optimized op
+                indices = np.arange(local_start, local_end)
+                puzzle_indices = np.searchsorted(dataset["puzzle_indices"], indices, side="right") - 1
                 
                 batch = self._collate_batch({
                     "inputs": dataset["inputs"][local_start: local_end],

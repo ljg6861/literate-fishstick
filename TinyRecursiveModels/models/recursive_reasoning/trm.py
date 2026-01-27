@@ -220,8 +220,10 @@ class TinyRecursiveReasoningModel_ACTV1_Inner(nn.Module):
             # Full BPTT through all H cycles
             prev_z_H = z_H
             for _H_step in range(H):
+                # Optimization: Hoist z_H + input_embeddings out of inner loop
+                z_H_input = z_H + input_embeddings
                 for _L_step in range(self.config.L_cycles):
-                    z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
+                    z_L = self.L_level(z_L, z_H_input, **seq_info)
                 z_H = self.L_level(z_H, z_L, **seq_info)
 
                 # Stability loss: force z_H to converge
@@ -233,12 +235,16 @@ class TinyRecursiveReasoningModel_ACTV1_Inner(nn.Module):
             # Original: H-1 cycles without grad (heuristic approximation)
             with torch.no_grad():
                 for _H_step in range(H - 1):
+                    # Optimization: Hoist z_H + input_embeddings out of inner loop
+                    z_H_input = z_H + input_embeddings
                     for _L_step in range(self.config.L_cycles):
-                        z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
+                        z_L = self.L_level(z_L, z_H_input, **seq_info)
                     z_H = self.L_level(z_H, z_L, **seq_info)
             # Last cycle with grad (learning happens here)
+            # Optimization: Hoist z_H + input_embeddings out of inner loop
+            z_H_input = z_H + input_embeddings
             for _L_step in range(self.config.L_cycles):
-                z_L = self.L_level(z_L, z_H + input_embeddings, **seq_info)
+                z_L = self.L_level(z_L, z_H_input, **seq_info)
             z_H = self.L_level(z_H, z_L, **seq_info)
 
         # LM Outputs

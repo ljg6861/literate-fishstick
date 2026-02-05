@@ -1,5 +1,4 @@
 from typing import Tuple
-import einops
 import torch
 from torch import nn
 import torch.nn.functional as F
@@ -128,9 +127,15 @@ class Attention(nn.Module):
             query, key = apply_rotary_pos_emb(query, key, cos, sin)
 
         # flash attn
-        query, key, value = map(lambda t: einops.rearrange(t, 'B S H D -> B H S D'), (query, key, value)) # needed for scaled_dot_product_attention but not flash_attn_func
+        # B S H D -> B H S D
+        query = query.transpose(1, 2)
+        key = key.transpose(1, 2)
+        value = value.transpose(1, 2)
+
         attn_output = scaled_dot_product_attention(query=query, key=key, value=value, is_causal=self.causal)
-        attn_output = einops.rearrange(attn_output, 'B H S D -> B S H D')
+
+        # B H S D -> B S H D
+        attn_output = attn_output.transpose(1, 2)
         attn_output = attn_output.reshape(batch_size, seq_len, self.output_size)  # type: ignore
         return self.o_proj(attn_output)
 
